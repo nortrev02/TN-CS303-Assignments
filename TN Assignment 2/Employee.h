@@ -15,7 +15,13 @@ public:
 	Employee(double rate, double hours, std::string name, int vacadays, double healthcont);
 	Employee() = default;
 
-	void SetEmployee(double rate, double hours, std::string name, int vacadays, double healthcont);
+	int SetEmployee(double rate, double hours, std::string name, int vacadays, double healthcont);
+
+	void setRate(double rat);
+	void setHours(double hou);
+	void setName(std::string nam);
+	void setVacaDays(int vac);
+	void setHealthCont(double hea);
 
 	double getRate();
 	double getHours();
