@@ -5,5 +5,12 @@
 
 class EmployeePro : public Employee {
 
+public:
+	EmployeePro(double rate, double hours, std::string name, int VacaDays, double healthcont);
+
+	void SetEmployeePro(double rate, double hours, std::string name, int VacaDays, double healthcont);
+
+	double CalcSalary(double rate);
+
 };
 #endif
