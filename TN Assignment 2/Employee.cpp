@@ -1,13 +1,15 @@
 #include "Employee.h"
 
-Employee::Employee(int salary, int hours, string name) {
+// Employee Constructor
+Employee::Employee(double rate, double hours, string name) {
 
-	SetEmployee(salary, hours, name)
-}
+	SetEmployee(rate, hours, name)
+};
 
-void Employee::SetEmployee(int salary, int hours, string name) {
-	
-	h_salary = salary;
+// Employee member function
+void Employee::SetEmployee(double rate, double hours, string name) {
+
+	h_rate = rate;
 	h_hours = hours;
 	h_name = name;
-}
+};
