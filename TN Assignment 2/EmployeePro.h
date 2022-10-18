@@ -1,6 +1,7 @@
-#ifindef EMPLOYEEPRO_H
+#ifndef EMPLOYEEPRO_H
 #define EMPLOYEEPRO_H
-#inclide "Employee.h"
+#include "Employee.h"
+#include <string>
 
 class EmployeePro : public Employee {
 
