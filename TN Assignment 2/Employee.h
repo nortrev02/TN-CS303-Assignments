@@ -4,24 +4,18 @@
 
 // Declaration of the Employee Class, with data points for salary, hours, name, vacation days, and healthcare insurance contributions.
 class Employee {
+public:
 
 	double h_rate;
 	double h_hours;
 	std::string h_name;
 	int h_vacadays;
 	double h_healthcont;
-
-public:
+	
 	Employee(double rate, double hours, std::string name, int vacadays, double healthcont);
 	Employee() = default;
 
-	int SetEmployee(double rate, double hours, std::string name, int vacadays, double healthcont);
-
-	void setRate(double rat);
-	void setHours(double hou);
-	void setName(std::string nam);
-	void setVacaDays(int vac);
-	void setHealthCont(double hea);
+	void SetEmployee(double rate, double hours, std::string name, int vacadays, double healthcont);
 
 	double getRate();
 	double getHours();
@@ -29,5 +23,4 @@ public:
 	int getVacaDays();
 	double getHealthCont();
 };
-
 #endif

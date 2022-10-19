@@ -5,14 +5,15 @@
 
 class EmployeePro : public Employee {
 
-	bool h_fulltime;
-
 public:
-	EmployeePro(double rate, double hours, std::string name, int VacaDays, double healthcont, bool fulltime);
-	EmployeePro() = default;
+	EmployeePro(double rate, double hours, std::string name, int VacaDays, double healthcont);
 
-	void SetEmployeePro(double rate, double hours, std::string name, int VacaDays, double healthcont, bool fulltime);
+	void SetEmployeePro(double rate, double hours, std::string name, int VacaDays, double healthcont);
 
-	void setFullTime(bool ful);
+	double calcSalary();
+
+	double calcVacaDays();
+
+	double calcHealthCont();
 };
 #endif
