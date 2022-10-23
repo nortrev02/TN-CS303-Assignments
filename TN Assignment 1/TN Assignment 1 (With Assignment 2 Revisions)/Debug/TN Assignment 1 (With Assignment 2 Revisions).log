@@ -1,2 +1,15 @@
 ﻿  CS303_Assignment_1.cpp
-  TN Assignment 1 (With Assignment 2 Revisions).vcxproj -> C:\Users\starf\OneDrive\TN-CS303-Assignments\TN Assignment 1\TN Assignment 1 (With Assignment 2 Revisions)\Debug\TN Assignment 1 (With Assignment 2 Revisions).exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4145,18): error C2440: '=': cannot convert from 'int *' to 'int'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4145,18): message : There is no context in which this conversion is possible
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4152): message : see reference to function template instantiation '_OutIt std::_Copy_unchecked<_InIt,_OutIt>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _InIt=int *[]
+          ]
+C:\Users\starf\OneDrive\TN-CS303-Assignments\TN Assignment 1\TN Assignment 1 (With Assignment 2 Revisions)\CS303_Assignment_1.cpp(33): message : see reference to function template instantiation '_OutIt *std::copy<int*[],int*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _InIt=int *[]
+          ]

@@ -10,5 +10,5 @@ int array_modify(int* arr[], int index);
 
 void array_append(int* arr[], int value);
 
-void array_remove(int* arr[]);
+void array_remove(int* arr[], int value);
 #endif
