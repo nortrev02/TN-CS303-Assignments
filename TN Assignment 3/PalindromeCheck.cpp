@@ -14,10 +14,10 @@ int main() {
 	cout << "Please enter string to check for Palindrome: " << endl;
 	cin >> str;
 	if (palinCheck(str, 0)) {
-		cout << "No";
+		cout << endl << "No";
 	}
 	else; {
-		cout << "Yes";
+		cout << endl << "Yes";
 	}
 };
 // Main function that gets string from user and returns if it is a palindrome or not.

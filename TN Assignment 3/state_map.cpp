@@ -19,5 +19,5 @@ int main() {
 	stateDataMap.at("California") = "Los Angeles";
 	cout << "Please insert state name now: " << endl;
 	cin >> stateName;
-	cout << stateDataMap.at(stateName);
+	cout << endl << stateDataMap.at(stateName);
 }
