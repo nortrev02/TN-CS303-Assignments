@@ -11,7 +11,7 @@ bool palinCheck(string inp, int i) {
 
 int main() {
 	string str;
-	cout << "Please enter string to check for Palindrome: ";
+	cout << "Please enter string to check for Palindrome: " << endl;
 	cin >> str;
 	if (palinCheck(str, 0)) {
 		cout << "No";

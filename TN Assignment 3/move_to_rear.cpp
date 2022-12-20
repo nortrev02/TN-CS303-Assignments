@@ -17,8 +17,8 @@ int main()
     q.push(1);
     q.push(2);
     q.push(3);
-    cout << q.front();
+    cout << "Element at front before move_to_rear ran: " << q.front() << endl;
     move_to_rear(q);
-    cout << q.front();
+    cout << "Element at front after move_to_rear ran: " << q.front();
 }
 // Main function used to demonstrate the function.
